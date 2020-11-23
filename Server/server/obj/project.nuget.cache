@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DIRFNQQfudyXB1TfXpUohG9Fobavn+H7ZGmPZlv2Yc5B2SYAaD2iCcyPj/TesBVSmFDhQBa3aEn19qAmADK3lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Александр\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
