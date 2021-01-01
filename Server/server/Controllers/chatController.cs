@@ -15,12 +15,7 @@ namespace server.Controllers
     public class chatController : ControllerBase
     {
         public static MessagesClass ms = new MessagesClass();
-        // GET: api/<chatController>
-        /*[HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "LLL" };
-        }*/
+
 
         // GET api/<chatController>/5
         [HttpGet("{id}")]
@@ -41,16 +36,6 @@ namespace server.Controllers
             ms.Add(msg.username, msg.text);
         }
 
-        // PUT api/<chatController>/5
-        /*[HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
 
-        // DELETE api/<chatController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }*/
     }
 }

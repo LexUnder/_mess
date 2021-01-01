@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj": {}
+    "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj": {
+    "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj",
+        "projectPath": "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\server.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

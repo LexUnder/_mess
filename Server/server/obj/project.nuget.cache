@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DIRFNQQfudyXB1TfXpUohG9Fobavn+H7ZGmPZlv2Yc5B2SYAaD2iCcyPj/TesBVSmFDhQBa3aEn19qAmADK3lQ==",
+  "dgSpecHash": "aKvK0HFgqiUf+HcqbtECQb4hA/h3gJ3y7vPxwahtxtyZzprzNpz1eZFpehoA1HNpkw8dsFMf+FHmAAHH4vYoQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\LexUnder\\_mess\\Server\\server\\server.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\LexUnder\\_messWeb\\Server\\server\\server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
