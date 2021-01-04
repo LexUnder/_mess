@@ -1,52 +1,43 @@
 <template>
   <v-container>
-
     <v-card>
-
       <div v-show="step === 1" class="step">
         <v-card-title>Введите своё имя</v-card-title>
-        <v-text-field v-model="username" class ="half-size" dense outlined label = "username"/>
-        <v-btn @click="nextStep" color="primary" >
-          Подтвердить
+        <v-text-field color="black" v-model="username" class="half-size" dense outlined label="Username"/>
+        <v-btn @click="nextStep" color="black">
+          <h2 class="white--text text--lighten-2">Подтвердить</h2>
         </v-btn>
       </div>
 
       <div v-show="step === 2" class="step">
-      <v-card-title>Wsend</v-card-title>
+        <v-card-title>WingSend</v-card-title>
+        <!-- Панель сообщений -->
+        <v-card-text>
+          <div class="messages-view">
 
-      <!-- Панель сообщений -->
-      <v-card-text>
-        <div class="messages-view">
-
-          <div class="message" v-for="(message, i) in messages" :key="i">
-            <span class="message-date mr-3">{{ new Date(message.timestamp).toDateString() }}</span>
-            <span class="message-username mr-5">{{ message.username }}</span>
-            <span class="message-text">{{ message.text }}</span>
+            <div class="message" v-for="(message, i) in messages" :key="i">
+              <span class="message-date mr-3">{{ new Date(message.timestamp).toLocaleString() }}</span>
+              <span class="message-username mr-5">{{ message.username }}</span>
+              <span class="message-text">{{ message.text }}</span>
+            </div>
           </div>
+        </v-card-text>
 
-        </div>
-      </v-card-text>
-
-      <!-- Панель действий -->
-      <v-card-text>
-        <div>
-          <v-text-field style="width: 40%; min-width: 200px" outlined dense v-model="username" label="Username"/>
-        </div>
-        <div class="d-flex">
-          <v-text-field class="mr-10" outlined dense v-model="message" label="message"/>
-          <v-btn
-              depressed
-              color="primary"
-              @click="onSendClick"
-              :disabled="!message.length"
-          >
-            <v-icon>mdi-send</v-icon>
-          </v-btn>
-        </div>
-      </v-card-text>
+        <!-- Панель действий -->
+        <v-card-text>
+          <div class="d-flex">
+            <v-text-field color="black" class="mr-10" outlined dense v-model="message" label="message"/>
+            <v-btn
+                depressed
+                color="black"
+                @click="onSendClick"
+                :disabled="!message.length">
+              <v-icon color="white">mdi-send</v-icon>
+            </v-btn>
+          </div>
+        </v-card-text>
       </div>
     </v-card>
-
   </v-container>
 </template>
 
@@ -112,22 +103,25 @@ export default {
 
 <style lang="sass" scoped>
 .messages-view
-  //border: 1px solid black
+  border: 1px solid black
   border-radius: 3px
   overflow-x: hidden
   overflow-y: scroll
   height: 40vh
 
   .message
-    background: #9fc8ea
+    background: #aab7c4
     border-radius: 3px
     padding: 3px
     margin: 5px
 
     .message-date
-      color: rgba(255, 255, 255, 0.9)
+      color: rgba(0, 0, 0, 0.9)
+      font-size: 10px
+
     .message-username
-      color: rgba(255, 255, 0, 0.8)
+      color: rgba(255, 255, 255, 0.8)
+
     .message-text
       color: rgba(0, 0, 0, 0.9)
 </style>
